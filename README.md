@@ -14,11 +14,27 @@ one to many, and many to many relations are not supported yet.
 
 PostgreSQL, JUnit, Mockito, JPA, Reflections, HikariCP
 
+##  Features
+List of features ready and TODOs for future development
+
+* Store Objects that you create into a table programmatically.
+* Ability to perform of the CRUD operations on your entities.
+
+To-do list:
+ * Add the ability for one to one relationships between entities
+ * Add the ability for one to many and many to one relationships between entities
+ * Add the ability for many to many relationships between entities
+ * Add the ability to work with any kind of SQL Language
+
 #Getting Started
 
 First in order to get the ORM just clone the git repo and grab the jar.
 
-git clone
+git clone https://github.com/pgonzalez017/PGORM.git
+
+Add the jar as a dependency to your project and you're done.
+
+#Usage
 
 You can set your database connection properties in the connection.properties file
 
